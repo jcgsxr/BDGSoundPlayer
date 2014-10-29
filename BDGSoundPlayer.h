@@ -17,7 +17,7 @@ extern NSString *const BDGSoundOn;
 +(BDGSoundPlayer *)sharedBDGSoundPlayer;
 
 -(void)playSound:(NSString *)soundID;
--(void)playSoundFromFile:(NSString *)fileName;
+-(void)playSoundFromFile:(NSURL *)fileURL;
 -(void)loadSounds:(NSArray *)soundNamesWithNameAsID;
 -(void)loadSound:(NSString *)fileName forID:(NSString *)soundID;
 
